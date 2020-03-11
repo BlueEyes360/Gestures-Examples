@@ -15,6 +15,11 @@
 		2037D6C3241731850043EDFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2037D6C1241731850043EDFC /* LaunchScreen.storyboard */; };
 		2037D6CE241731860043EDFC /* Gesture_Homework_08Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037D6CD241731860043EDFC /* Gesture_Homework_08Tests.swift */; };
 		2037D6D9241731860043EDFC /* Gesture_Homework_08UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037D6D8241731860043EDFC /* Gesture_Homework_08UITests.swift */; };
+		2037D6E9241739DD0043EDFC /* background_v1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2037D6E8241739DD0043EDFC /* background_v1_1.png */; };
+		2037D6EB241742990043EDFC /* SmileGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037D6EA241742990043EDFC /* SmileGestureRecognizer.swift */; };
+		2037D6ED241742C40043EDFC /* FrownGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037D6EC241742C40043EDFC /* FrownGestureRecognizer.swift */; };
+		20B262D02418977B00D9DC4A /* tasty.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B262CF2418977B00D9DC4A /* tasty.png */; };
+		20B262D2241897C400D9DC4A /* nasty.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20B262D1241897C400D9DC4A /* nasty.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		2037D6D4241731860043EDFC /* Gesture Homework 08UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gesture Homework 08UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2037D6D8241731860043EDFC /* Gesture_Homework_08UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture_Homework_08UITests.swift; sourceTree = "<group>"; };
 		2037D6DA241731860043EDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2037D6E8241739DD0043EDFC /* background_v1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_v1_1.png; sourceTree = "<group>"; };
+		2037D6EA241742990043EDFC /* SmileGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileGestureRecognizer.swift; sourceTree = "<group>"; };
+		2037D6EC241742C40043EDFC /* FrownGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrownGestureRecognizer.swift; sourceTree = "<group>"; };
+		20B262CF2418977B00D9DC4A /* tasty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasty.png; sourceTree = "<group>"; };
+		20B262D1241897C400D9DC4A /* nasty.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nasty.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,18 @@
 		2037D6B5241731830043EDFC /* Gesture Homework 08 */ = {
 			isa = PBXGroup;
 			children = (
-				2037D6B6241731830043EDFC /* AppDelegate.swift */,
 				2037D6B8241731830043EDFC /* SceneDelegate.swift */,
+				2037D6B6241731830043EDFC /* AppDelegate.swift */,
 				2037D6BA241731830043EDFC /* ViewController.swift */,
+				2037D6EA241742990043EDFC /* SmileGestureRecognizer.swift */,
+				2037D6EC241742C40043EDFC /* FrownGestureRecognizer.swift */,
 				2037D6BC241731830043EDFC /* Main.storyboard */,
 				2037D6BF241731850043EDFC /* Assets.xcassets */,
 				2037D6C1241731850043EDFC /* LaunchScreen.storyboard */,
 				2037D6C4241731850043EDFC /* Info.plist */,
+				2037D6E8241739DD0043EDFC /* background_v1_1.png */,
+				20B262CF2418977B00D9DC4A /* tasty.png */,
+				20B262D1241897C400D9DC4A /* nasty.jpeg */,
 			);
 			path = "Gesture Homework 08";
 			sourceTree = "<group>";
@@ -232,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B262D2241897C400D9DC4A /* nasty.jpeg in Resources */,
 				2037D6C3241731850043EDFC /* LaunchScreen.storyboard in Resources */,
+				2037D6E9241739DD0043EDFC /* background_v1_1.png in Resources */,
 				2037D6C0241731850043EDFC /* Assets.xcassets in Resources */,
 				2037D6BE241731830043EDFC /* Main.storyboard in Resources */,
+				20B262D02418977B00D9DC4A /* tasty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2037D6EB241742990043EDFC /* SmileGestureRecognizer.swift in Sources */,
 				2037D6BB241731830043EDFC /* ViewController.swift in Sources */,
 				2037D6B7241731830043EDFC /* AppDelegate.swift in Sources */,
 				2037D6B9241731830043EDFC /* SceneDelegate.swift in Sources */,
+				2037D6ED241742C40043EDFC /* FrownGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
